@@ -1,0 +1,63 @@
+
+.contato {
+    width: 100%;
+    max-width: 500px;
+    padding-left: 165px;
+    text-transform: uppercase;
+}
+
+.contato-titulo {
+
+    color: tomato;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.field-email-name-buttom {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1s solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.field {
+    padding: 60px;
+    margin-bottom: 15px;
+    border: 1s solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+.textarea{
+    height: 150px;
+}
+
+.informacao-contato{
+    margin-left: 900px;
+    margin-bottom: 100px;
+}
+
+.info{
+    margin-top: -380px;
+    text-transform: uppercase;
+}
+
+.info-conteudo{
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: normal;
+    margin-top: 30px;
+}
+
+.email-endereco{
+    font-size: 15px;
+    letter-spacing: 0.52px;
+    line-height: 20px;
+}

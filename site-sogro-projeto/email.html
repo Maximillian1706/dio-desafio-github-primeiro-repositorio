@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css"/>
+    <link rel="stylesheet" href="assets/css/header.css"/>
+    <link rel="stylesheet" href="assets/css/fazendas.css">
+    <link rel="stylesheet" href="assets/css/grid.css"/>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/email.css">
+    <link rel="stylesheet" href="fazenda.html">
+    <link rel="stylesheet" href="email.html">
+    <link rel="stylesheet" href="email.php">
+    <title>Visual Imóveis</title>
+</head>
+<body>
+    <header class="header container-fluid">
+        <div class="container clearfix">
+          <div class="col-6">
+            <span class="logo">Visual Imóveis</span>
+          </div>
+          <div class="icone col-7">
+            <p><a href="https://accounts.google.com/AccountChooser/signinchooser?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser" target="_blank"><img src="./img/email.png" alt="email">robertao.a.oliveira@gmail.com</a></p>
+            <p><a href="tel:19982716984" target="_blank"><img src="./img/zapp.png" alt="whatsapp-web">whatsapp-web</a></p>
+            <p><a href="https://www.facebook.com/VisualImoveis" target="_blank"><img src="./img/face.png" alt="facebook">Facebook</a></p>
+            <p><a href="https://www.google.com/maps/dir/Socorro,+SP//@-22.5905754,-46.5983387,20020m/data=!3m1!1e3!4m8!4m7!1m5!1m1!1s0x94c93f84c98f9e13:0x5ec459246d760c1b!2m2!1d-46.5282973!2d-22.5905906!1m0" target="_blank"><img src="./img/endereco.png" alt="endereco">avenida: jaboticabal/socorro</a></p>
+        </div>
+        </div>
+        <nav class="menu-footer-menu">
+            <ul class="menu">
+                <p class="menu-footer-text">o que voce procura ?</p>
+                <li class="link"><h2><a href="index.html">home</a></h2></li>
+                <li class="link"><h2><a href="#">chacaras</a></h2></li>
+                <li class="link"><h2><a href="#">sitios</a></h2></li>
+                <li class="link"><h2><a href="fazenda.html">fazendas</a></h2></li>
+                <li class="link"><h2><a href="#">casa</a></h2></li>
+                <li class="link"><h2><a href="email.html">contato</a></h2></li>
+            </ul>
+        </nav>
+    </header>
+    
+        <section class="contato">
+            <h1 class="contato-titulo">Formulário de contado</h1>
+            <form class="form" method="POST" action="email.php">
+                <input class="field-email-name-buttom" name="name" placeholder="Nome">
+                <input class="field-email-name-buttom" name="email" placeholder="E-mail">
+                <textarea class="field" name="message" placeholder="Digite sua menssagem aqui."></textarea>
+                <input class="field-email-name-buttom" type="submit" volue="enviar">
+            </form>
+        </section>
+
+        <section class="informacao">
+            <div class="informacao-contato">
+                <h2 class="info">informações de contato</h2>
+                <h3 class="info-conteudo">Endereço</h3>
+                <p class="email-endereco">avenida: jaboticabal/socorro</p>
+
+                <h3 class="info-conteudo">Whatsapp</h3>
+                <p class="email-endereco">Whatsapp (19)98271-6984</p>
+
+                <h3 class="info-conteudo">Email</h3>
+                <p class="email-endereco">robertao.a.oliveira@gmail.com</p>
+
+                <h3 class="info-conteudo">Facebook</h3>
+                <p class="email-endereco">Visual Imóveis</p>
+            </div>
+        </section>
+
+
+    <footer class="footer">
+        <div class="container">
+          <div class="menu-footer">
+              <h1 class="menu-footer-contato">contato</h1>
+              <p><a class="link-footer" href="https://accounts.google.com/AccountChooser/signinchooser?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser" target="_blank">robertao.a.oliveira@gmail.com</a></p>
+              <p><a class="link-footer" href="https://www.facebook.com/VisualImoveis" target="_blank">Facebook</a></p>
+              <p><a class="link-footer" href="tel:19982716984" target="_blank">whatsapp-web</a></p>
+          </div>
+        </div>
+        <div class="container">
+            <div class="menu-footer-text-fot">
+                <p class="footer-text-01">Bairro Jaboticabal, Socorro - SP</p>
+                <p class="footer-text-01">Socorro - São Paulo | CEP: 13960-000</p>
+            </div>
+        </div>
+        <div class="creator">
+            © 2020 Desenvolvido por 
+            <a class="creator-max" href="https://www.facebook.com/maximillian.bachiega.58" target="_blank">Maximillian Bachiega.</a>
+          </div>
+    </footer>
+</body>
+</html>
